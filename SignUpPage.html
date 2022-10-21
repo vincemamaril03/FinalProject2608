@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Login Page</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="LoginPage.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="SignUpConfirmation.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-dark" style="background-color: #130a32;">
+            <div class="container-fluid">
+
+                <!-- Site Name and Logo -->
+                <div class="navbar-header">
+                    <img class="navbar-brand" src="..." alt="" width="30" height="30">
+                    <a class="navbar-brand" href="#" style="color: white;">
+                        NameOfSite
+                    </a>
+                </div>
+
+                <!-- Buttons -->
+                <div class = "navBarBtns">
+                    
+                </div>                
+            </div>        
+        </nav>
+
+        <!-- Body Link to button -->
+        
+            <div class="row">
+                <div style="text-align: right;" class="col-md-6">                    
+                    <img class="pic" src="https://patientengagementhit.com/images/site/article_headers/_normal/2017-01-11-engagement.gif">
+                </div>
+                <div class="col-md-6">
+                    <main class="form-login">
+                        <form >
+                            <h1 id="welcome"><b>Sign Up</b></h1>
+
+                            <br/>
+                        
+                            <div class="form-floating">
+                                <input type="name" class="form-control" id="name" name="name" placeholder="Name" required>
+                                <label for="floatingInput">Name</label>
+                            
+                            </div>
+                            
+                            <br/>
+                            
+                            <div class="form-floating">
+                                <input type="phonenumber" class="form-control" id="phonenumber" name="phonenumber" placeholder="Phone Number" required>
+                                <label for="floatingInput">Phone Number (09xx xxx xxxx)</label>
+                            </div>
+                            
+                            <br/>
+                            
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            
+                            <br/>
+                            
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                                <label for="floatingPassword">Password</label>
+                            </div>
+
+                            <button class="btn btn-lg btn-light mt-3" onclick="confirmCorrectDetails()" type="submit">Sign Up</button>
+                            <br/><br/>
+			                <h6>Already have an account?  <a href="LoginPage.html">Login.</a></h6>
+                        </form>
+                    </main>
+                </div>
+                
+            </div>
+		
+        <br> <br>
+        
+    </body>
+</html>

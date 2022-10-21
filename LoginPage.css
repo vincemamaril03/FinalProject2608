@@ -1,0 +1,53 @@
+nav {
+    background-color: #373b73 !important;
+}
+
+body{
+    background-color: #959adb !important;
+}
+
+#welcome{
+    color:#f8f8f8;
+}
+
+.pic{
+    margin-top: 100px;
+    max-width: 90%;
+    height: 300px;
+}
+
+.form-login{
+    max-width: 35rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #959adb;
+}
+
+
+footer{
+    background-color: #959adb;
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 4%;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-radius: 0.375rem;
+}
+.signUpBtn{
+    background-color: #959adb;
+    color: #ffffff;
+    border: none;
+}
+
+a:link{
+    color: #5b4fdf !important;
+}
