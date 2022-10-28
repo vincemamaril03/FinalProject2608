@@ -1,5 +1,5 @@
 <?php
-// HELLO GUYS :))))))))))))))))
+// HAHAHAHHAHAA ANNYEONG 
 // FIRST DRAFT: PHP FILE FOR SIGN UP PAGE ---------- 
 
 // connection to the MySQL server
