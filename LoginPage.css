@@ -13,7 +13,7 @@ body{
 .pic{
     margin-top: 100px;
     max-width: 90%;
-    height: 300px;
+    height: 400px;
 }
 
 .form-login{
@@ -30,6 +30,11 @@ a, a:hover, a:focus, a:active {
     color: #959adb;
 }
 
+#navbar-logo img {
+    width: 40% !important;
+    height: 10% !important;
+    max-height: 200px;
+}
 
 footer{
     background-color: #959adb;
