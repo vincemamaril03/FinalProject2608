@@ -1,0 +1,11 @@
+// create db name as "user_db"
+// script to create database table; paste in SQL
+
+CREATE TABLE IF NOT EXISTS `user_form` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `username` varchar(255) NOT NULL,
+ `phonenumber` varchar(255) NOT NULL,
+ `email` varchar(255) NOT NULL,
+ `password` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+);
