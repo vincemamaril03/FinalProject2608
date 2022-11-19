@@ -1,4 +1,0 @@
-<?php
-// PHP FILE FOR SIGN UP PAGE 
-
-?>
