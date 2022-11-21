@@ -26,9 +26,7 @@ if(!isset($_SESSION['user_name'])){
 	<link rel="stylesheet"href="css/bootstrap.css">
 	<link rel="stylesheet"href="homepage.css">
   <script src="js/bootstrap.js"></script>
-  	<!-- external css --> 
-  	<link href="user_page.css" rel="stylesheet">
-  
+  <link rel="stylesheet"href="user_page.css">
 </head>
 
 <!-- contents of the web page --> 
@@ -51,15 +49,7 @@ if(!isset($_SESSION['user_name'])){
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 			   <li class="nav-item">
                <a class="nav-link active" aria-current="page" href=""><b>Home</b></a>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"><b>Wala lang</b></a>
-					<ul class="dropdown-menu">
-					   <li><a class="dropdown-item" href="#">Link 1</a></li>
-					   <li><a class="dropdown-item" href="#">Link 2</a></li>
-					   <li><a class="dropdown-item" href="#">Link 3</a></li>
-					</ul>
-			  </li>
+        </li>
             <li class="nav-item">
 				   <a class="nav-link" href="logout.php"><b>Logout</b></a>
 			   </li>
