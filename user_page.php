@@ -194,50 +194,16 @@ if(!isset($_SESSION['user_name'])){
     <nav class="navbar navbar-dark" style="background-color: #373b73;">
       <div class="container-fluid">
           <div class="navbar-header">
-            <img id="pic2" class="navbar-brand" class="img-fluid" src="logo.png" alt="">
-          </div>
-          <div class = "navBarKo">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" href="contact.html">
-                        Contact Us:
-                      </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="ID2-tab" data-bs-toggle="tab" data-bs-target="#ID2" type="button" role="tab" aria-controls="profile" aria-selected="false" href="chat.html">
-                        Chat Us:
-                      </button>
-                  </li>
-              </ul>                    
-          </div>
-      </div>            
-  </nav>
+            <img id="pic2" class="navbar-brand" class="img-fluid" src="logo.png" alt="" >
+          </div>                   
+        </div>           
+      </nav>
 	<br/>
-   <br/>
-   <br/>
-	
+  <br/>
+  <br/>
+  <br/>
 	<!-- footer -->
    <footer style="background-color:#D3D4EA;">
-	  <div class="container text-center">
-     <br/>
-		   <h3>Advocanet</h3>
-		<hr/>
-		<h5>Connect With Us</h5>
-		   <a href="https://www.facebook.com/UST1611official/" target="_blank" class="btn"><ion-icon name="logo-facebook"></ion-icon></a>
-		   <a href="https://www.instagram.com/ust1611official/?hl=en" target="_blank" class="btn"><ion-icon name="logo-instagram"></ion-icon></a>
-		   <a href="https://twitter.com/UST1611official/" target="_blank" class="btn"><ion-icon name="logo-twitter"></ion-icon></a>
-	   </div>
-      <div id="copyright" class="container-fluid text-center" style="color:white;">
-		   Copyright © 2022 Advocanet. All rights reserved.
-      </div>
-</footer>
-	
-  
-	
-	<!-- icons -->
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>
 
